@@ -9,6 +9,7 @@ body {
   height: 100vh;
   overflow: hidden;
   margin: 0;
+  background-color: #2c3333;
 }
 
 .container {
@@ -44,7 +45,8 @@ body {
 }
 
 .panel.active h3 {
-  opacity: 3;
+  opacity: 1;
+  transition: opacity 0.3s ease-in 0.9s;
 }
 
 @media (max-width: 480px) {
